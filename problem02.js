@@ -7,12 +7,16 @@ function validOtp(otp) {
     }
     if(otp.length !== 8){
         return false;
-    } else{
-       return true;
     }
-  
+    if (otp.startsWith ("ph-")) {
+    return true;
+    }
+       return false;
+    // else { 
+    //    return false;
+    // }
 }
-  const output = validOtp ('1212121222');
+  
+  const output = validOtp('ph-12345');
   console.log(output);
-//   console.log(validOtp(1111111222222));
-// validOtp(111111111);
+
