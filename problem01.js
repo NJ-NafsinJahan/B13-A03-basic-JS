@@ -25,6 +25,7 @@ console.log('-----------');
 // console.log("-----------");
 newPrice(500, "5");
 newPrice(500,100.1);
+// newPrice([1,2,3]);
 // newPrice(500, -3);
 // newPrice(500,0);
 

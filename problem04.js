@@ -33,3 +33,31 @@ const result = gonoVote("ha, na");
 // const result = gonoVote(['ha', 'na', 'ha', 'ha',"ha", "na", "ha", "ha", "na"]);
 
 console.log(result);
+
+
+
+
+
+// function gonoVote(array) {
+//     if (!Array.isArray(array)){
+//         return "Invalid";
+//     }
+//     let haVote = 0;
+//     let naVote= 0;
+//     for (let i=0;i< array.length; i++){
+//         if (array [i] === "ha"){
+//            haVote++
+//         } else if (array [i] === "na"){
+//             naVote++
+//         }
+
+//     }
+    
+//     if(haVote > naVote){
+//         return true;
+//     } else if (haVote === naVote){
+//         return "equal";
+//     }
+//     return false;
+    
+// }
